@@ -76,9 +76,11 @@ https://breastcancerdetectorapi.onrender.com/predict
 
 ```
 
-📌 Tech Stack
-   -Python
-   -Flask (API)
-   -scikit-learn (ML)
-   -pandas, numpy (data processing)
-   -gunicorn (for deployment)
+## 📌 Tech Stack
+
+- Python
+- Flask (API)
+- scikit-learn (ML)
+- pandas, numpy (data processing)
+- gunicorn (for deployment)
+
