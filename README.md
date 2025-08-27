@@ -36,23 +36,50 @@ The trained model (`breast_cancer_detector.pkl`) can classify whether a tumor is
 ## 🚀 API Setup
 
 ### 🔹 Run Locally
+
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/Kunal-3004/BreastCancerDetectorAPI.git
-   cd BreastCancerDetectorAPI
-2.Create a virtual environment & install dependencies:
-   ```bash
-   python -m venv .venv
-   .venv\Scripts\activate   # for Windows
-   source .venv/bin/activate  # for Linux/Mac
 
-   pip install -r requirements.txt
+```bash
+git clone https://github.com/Kunal-3004/BreastCancerDetectorAPI.git
+cd BreastCancerDetectorAPI
+```
 
-3.Run Flask server:
-    ```bash
-   python app.py
+2. Create a virtual environment & install dependencies:
 
-4.http://127.0.0.1:5000/predict
-    ```bash
-   This api is deployed on Render.You can test by using below url
-   https://breastcancerdetectorapi.onrender.com/predict
+```bash
+python -m venv .venv
+.venv\Scripts\activate   # for Windows
+source .venv/bin/activate  # for Linux/Mac
+
+pip install -r requirements.txt
+```
+3. Run the Flask server:
+
+```bash
+python app.py
+
+```
+
+4. Access the API locally at:
+
+```bash
+http://127.0.0.1:5000/predict
+```
+
+Deployed Version (Render)
+
+This API is deployed on Render.
+You can directly test it using the following endpoint:
+```bash
+
+https://breastcancerdetectorapi.onrender.com/predict
+
+```
+
+📌 Tech Stack
+
+Python
+Flask (API)
+scikit-learn (ML)
+pandas, numpy (data processing)
+gunicorn (for deployment)
