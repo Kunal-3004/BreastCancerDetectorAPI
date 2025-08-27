@@ -41,12 +41,12 @@ The trained model (`breast_cancer_detector.pkl`) can classify whether a tumor is
    git clone https://github.com/Kunal-3004/BreastCancerDetectorAPI.git
    cd BreastCancerDetectorAPI
 2.Create a virtual environment & install dependencies:
+   ```bash
+   python -m venv .venv
+   .venv\Scripts\activate   # for Windows
+   source .venv/bin/activate  # for Linux/Mac
 
-python -m venv .venv
-.venv\Scripts\activate   # for Windows
-source .venv/bin/activate  # for Linux/Mac
-
-pip install -r requirements.txt
+   pip install -r requirements.txt
 3.Run Flask server:
 
 python app.py
