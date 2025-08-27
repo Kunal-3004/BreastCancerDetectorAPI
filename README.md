@@ -47,9 +47,12 @@ The trained model (`breast_cancer_detector.pkl`) can classify whether a tumor is
    source .venv/bin/activate  # for Linux/Mac
 
    pip install -r requirements.txt
+
 3.Run Flask server:
     ```bash
    python app.py
+
 4.http://127.0.0.1:5000/predict
+    ```bash
    This api is deployed on Render.You can test by using below url
    https://breastcancerdetectorapi.onrender.com/predict
