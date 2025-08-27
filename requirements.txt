@@ -1,4 +1,7 @@
-flask
-numpy==1.24.3
-pandas>=2.0.0
+Flask
+numpy
+pandas
 scikit-learn
+gunicorn
+setuptools
+wheel
